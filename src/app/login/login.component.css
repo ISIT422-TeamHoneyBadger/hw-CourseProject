@@ -1,0 +1,28 @@
+.login-div-main {
+  text-align: center;
+}
+
+.login-div-header {
+  text-align: center;
+}
+
+.login-div-submit {
+  text-align: center;
+}
+
+.login-form {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.login-card {
+  padding: 3em 6em;
+  border-radius: 15px;
+  opacity: 0.9;
+}
+
+.login-submit {
+  display: inline-block;
+  margin: 0 auto;
+}

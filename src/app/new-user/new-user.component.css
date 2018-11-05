@@ -1,0 +1,28 @@
+.new-user-div-main {
+  text-align: center;
+}
+
+.new-user-div-header {
+  text-align: center;
+}
+
+.new-user-div-submit {
+  text-align: center;
+}
+
+.new-user-form {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.new-user-card {
+  padding: 3em 6em;
+  border-radius: 15px;
+  opacity: 0.9;
+}
+
+.new-user-submit {
+  display: inline-block;
+  margin: 0 auto;
+}

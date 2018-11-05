@@ -1,0 +1,32 @@
+<div class="new-user-div-main">
+  <form (ngSubmit)="onSubmit()" class="new-user-form">
+    <mat-card class="new-user-card">
+      <div class="new-user-div-header">
+        <h1>New User</h1>
+      </div>
+
+      <p>
+        <mat-form-field appearance="outline">
+          <mat-label>Username</mat-label>
+          <input matInput [(ngModel)]="data.userName" id="input-username" name="username" placeholder="doge">
+          <mat-icon matSuffix>account_box</mat-icon>
+        </mat-form-field>
+      </p>
+
+      <p>
+        <mat-form-field appearance="outline">
+          <mat-label>Password</mat-label>
+          <input matInput [(ngModel)]="data.userPass" type="text" id="input-password" name="password" placeholder="doge">
+          <mat-icon matSuffix>vpn_key</mat-icon>
+        </mat-form-field>
+      </p>
+
+      <div class="new-user-div-submit">
+        <nav>
+          <button matInput mat-raised-button type="button" (click)="createUP()" class="new-user-submit" routerLink='/'>Submit</button>
+        </nav>
+      </div>
+
+    </mat-card>
+  </form>
+</div>

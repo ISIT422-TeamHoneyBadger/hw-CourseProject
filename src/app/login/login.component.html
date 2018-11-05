@@ -1,0 +1,32 @@
+<div class="login-div-main">
+  <form (ngSubmit)="onSubmit()" class="login-form">
+    <mat-card class="login-card">
+      <div class="login-div-header">
+        <h1>Login</h1>
+      </div>
+
+      <p>
+        <mat-form-field appearance="outline">
+          <mat-label>Username</mat-label>
+          <input matInput [(ngModel)]="data.userName" id="input-username" name="username" placeholder="doge">
+          <mat-icon matSuffix>account_box</mat-icon>
+        </mat-form-field>
+      </p>
+
+      <p>
+        <mat-form-field appearance="outline">
+          <mat-label>Password</mat-label>
+          <input matInput [(ngModel)]="data.userPass" type="password" id="input-password" name="password" placeholder="doge">
+          <mat-icon matSuffix (click)="togglePasswordVisibility()" id="input-password-vis-toggle">visibility_off</mat-icon>
+        </mat-form-field>
+      </p>
+
+      <div class="login-div-submit">
+        <nav>
+          <button matInput mat-raised-button type="button" (click)="loginUP()" class="login-submit" routerLink='/login-feedback'>Submit</button>
+        </nav>
+      </div>
+
+    </mat-card>
+  </form>
+</div>

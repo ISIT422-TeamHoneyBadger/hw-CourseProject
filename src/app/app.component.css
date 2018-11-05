@@ -1,0 +1,17 @@
+.app-div-main {
+  text-align: center;
+}
+
+.app-title {
+  color: azure; /* lol */
+}
+
+mat-toolbar {
+  margin: 1em 0;
+  border-radius: 15px;
+}
+
+mat-toolbar a {
+  margin: 0 1em;
+  color: azure; /* works surprisingly well as an accent for the purple theme */
+}

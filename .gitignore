@@ -62,7 +62,7 @@ typings/
 
 .DS_STORE
 
-/dist/
+#/dist/
 bazel-*
 e2e_test.*
 node_modules

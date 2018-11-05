@@ -1,0 +1,14 @@
+.login-feedback-div-main {
+  text-align: center;
+}
+
+.login-feedback-div-card {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.login-feedback-card {
+  padding: 3em 6em;
+  border-radius: 15px;
+  opacity: 0.9;
+}

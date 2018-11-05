@@ -1,0 +1,17 @@
+.home-div-main {
+  text-align: center;
+}
+
+.home-div-card {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.home-card {
+  border-radius: 15px;
+  opacity: 0.9;
+}
+
+.home-card img {
+  height: 500px;
+}
